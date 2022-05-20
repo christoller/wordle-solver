@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.word-suggestions-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.input-box {
+  height: 50px;
+  width: 50px;
+  margin: 0 2% 5%;
+  font-size: 100%;
+  text-align: center;
+}
+
+.input-box-unmatched {
+  height: 50px;
+  width: 40%;
+  font-size: 100%;
+}
+
+.submit-btn {
+  height: 50px;
+  width: 100px;
+  margin-top: 3%;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.second-text {
+  width: 60%;
+  margin: 0 auto 3%;
+
+}
